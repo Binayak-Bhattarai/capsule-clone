@@ -1,4 +1,5 @@
-var tl = gsap.timeline();
+function preloader(){
+  var tl = gsap.timeline();
 
 tl.to("#loader", {
   width: "100%",
@@ -27,5 +28,7 @@ tl.to("#capsule", {
   }
 
 });
+}
 
+preloader();
 
