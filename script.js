@@ -26,6 +26,8 @@ function preloader() {
     ease: "power3.out",
     onComplete: () => {
       document.querySelector("#preloader").style.display = "none";
+      
+
 
     }
 
@@ -52,6 +54,9 @@ function preloader() {
     autoAlpha: 0,
     duration:0.7,
     ease: "circ.inOut",
+    onComplete:()=>{
+      document.body.style.overflow = 'auto';
+    }
   })
 
 }
