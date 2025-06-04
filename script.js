@@ -38,7 +38,7 @@ function preloader() {
     ease: "circ.inOut",
   })
 
-  
+
 }
 
 
