@@ -38,6 +38,19 @@ function preloader() {
     ease: "circ.inOut",
   })
 
+  tl.from("#page1 h2", {
+    left:"-30%",
+    autoAlpha: 0,
+    duration:0.7,
+    ease: "circ.inOut",
+  })
+
+    tl.from("#page1 h3", {
+    right:"-30%",
+    autoAlpha: 0,
+    duration:0.7,
+    ease: "circ.inOut",
+  })
 
 }
 
