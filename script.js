@@ -39,13 +39,15 @@ function preloader() {
   })
 
   tl.from("#page1 h2", {
+    opacity:0,
     left:"-30%",
     autoAlpha: 0,
     duration:0.7,
     ease: "circ.inOut",
   })
 
-    tl.from("#page1 h3", {
+    tl.from("#page1 h4", {
+       opacity:0,
     right:"-30%",
     autoAlpha: 0,
     duration:0.7,

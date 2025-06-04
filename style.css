@@ -126,6 +126,17 @@ body {
   line-height: 55px;
 
 }
+#page1 h4{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  z-index: 5;
+  position: absolute;
+  letter-spacing: -1px;
+  right:2%;
+  bottom: 4%;
+
+}
 
 .btn,
 #btn-top {
