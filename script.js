@@ -63,5 +63,15 @@ function preloader() {
 
 preloader();
 
+gsap.registerPlugin(ScrollTrigger);
 
-
+gsap.to("#page1 img", {
+  scale: 1.3,
+  scrollTrigger: {
+    trigger: "#page1 img",
+    scroller: "body",
+    start: "top center",
+    end: "bottom top",
+    scrub:1
+  }
+});
