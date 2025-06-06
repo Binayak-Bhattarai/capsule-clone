@@ -230,7 +230,7 @@ body::-webkit-scrollbar {
 }
 
 #page2{
-  height: 100vh;
+ min-height:  100vh;
   margin-top: 150px;
   padding: 20px;
 
@@ -244,6 +244,38 @@ body::-webkit-scrollbar {
 display: inline-block;
 }
 
+#page2 .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 20px;
+  width: fit-content;
+}
 
+.hero_left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.img1{
+  height: 160px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 90px;
+  background-image: url(https://capsules.moyra.co/_ipx/q_80/images/welcome-1.png);
+  background-position: center;
+  object-fit: cover;
+}
 
+.img2{
+  height: 160px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 90px;
+   background-image: url(https://capsules.moyra.co/_ipx/q_80/images/welcome-2.png);
+  background-position: center;
+  object-fit: cover;
+}
 
