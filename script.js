@@ -63,8 +63,7 @@ function preloader() {
 
 preloader();
 
-gsap.registerPlugin(SplitText);
-gsap.registerPlugin(ScrollTrigger);
+
 
 gsap.to("#page1 img", {
   scale: 1.3,
@@ -74,6 +73,20 @@ gsap.to("#page1 img", {
     start: "top center",
     end: "bottom top",
     scrub:1
+  }
+});
+
+
+gsap.to(".text span", {
+  color: "white",
+  stagger:0.5,
+  scrollTrigger: {
+    trigger: ".text span",
+    scroller:"body",
+    start: "top 70%",
+    end: "top ",
+    scrub: 1,
+   
   }
 });
 
