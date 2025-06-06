@@ -166,7 +166,7 @@ body {
 
 #btn-top {
   top: 5%;
-  right: 5%;
+  left: 90%;
   position: sticky;
 }
 
