@@ -231,8 +231,13 @@ body::-webkit-scrollbar {
 
 #page2{
   height: 100vh;
-  
+  margin-top: 20px;
+  padding: 20px;
 
+}
+#page2 h1{
+  color: rgb(103, 99, 99);
+  font-size: 60px;
 }
 
 

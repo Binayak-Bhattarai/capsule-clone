@@ -63,6 +63,7 @@ function preloader() {
 
 preloader();
 
+gsap.registerPlugin(SplitText);
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("#page1 img", {
@@ -75,3 +76,4 @@ gsap.to("#page1 img", {
     scrub:1
   }
 });
+
