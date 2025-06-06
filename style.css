@@ -144,7 +144,7 @@ body {
 
 .btn,
 #btn-top {
-  position: fixed;
+  
   height: 50px;
   width: 150px;
   border-radius: 40px;
@@ -157,6 +157,7 @@ body {
 
 
 .btn {
+  position: fixed;
   left: 50%;
   right: 50%;
   bottom: 0;
@@ -166,6 +167,7 @@ body {
 #btn-top {
   top: 5%;
   right: 5%;
+  position: sticky;
 }
 
 .container {
