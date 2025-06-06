@@ -250,7 +250,7 @@ display: inline-block;
   align-items: center;
   margin-top: 100px;
   padding: 20px;
-  width: fit-content;
+  width: 100%
 }
 
 .hero_left{
@@ -277,5 +277,10 @@ display: inline-block;
    background-image: url(https://capsules.moyra.co/_ipx/q_80/images/welcome-2.png);
   background-position: center;
   object-fit: cover;
+}
+.hero_right h1{
+  color:#605f5e;
+  text-align: left;
+  font-size: 35px;
 }
 
